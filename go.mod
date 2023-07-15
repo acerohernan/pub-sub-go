@@ -1,11 +1,12 @@
-module pub-sub-aws
+module github.com/acerohernan/pub-sub-aws
 
-go 1.18
+go 1.20
 
 require (
 	github.com/aws/aws-cdk-go/awscdk/v2 v2.87.0
-	github.com/aws/constructs-go/constructs/v10 v10.2.55
+	github.com/aws/constructs-go/constructs/v10 v10.2.69
 	github.com/aws/jsii-runtime-go v1.84.0
+	github.com/magefile/mage v1.15.0
 )
 
 require (
